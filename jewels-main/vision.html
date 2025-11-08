@@ -219,20 +219,7 @@
                 }
             });
             
-            // Mobile menu toggle
-            menuToggle.addEventListener('click', function() {
-                mobileMenu.classList.toggle('active');
-                menuOverlay.classList.toggle('active');
-                document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
-            });
-            
-            // Close mobile menu when clicking overlay
-            menuOverlay.addEventListener('click', function() {
-                mobileMenu.classList.remove('active');
-                menuOverlay.classList.remove('active');
-                document.body.style.overflow = '';
-            });
-            
+           
             // Hide preloader when page is loaded
             window.addEventListener('load', function() {
                 setTimeout(function() {
