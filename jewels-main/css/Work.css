@@ -521,7 +521,70 @@
     font-size: 0.95rem;
     line-height: 1.6;
 }
+/* تنسيقات زر التواصل معنا */
+.contact-btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
 
+.contact-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, rgb(240, 223, 108) 0%, #d4af37 100%);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+    background: linear-gradient(135deg, #ecc953 0%, #d9b642 100%);
+}
+
+/* تنسيقات إضافية لتحقيق التوازن في ارتفاع البطاقات */
+.work-card {
+    background: var(--diamond-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-medium);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* لجعل جميع البطاقات بنفس الارتفاع */
+}
+
+.work-content {
+    padding: 20px;
+    flex-grow: 1; /* لملء المساحة المتبقية */
+    display: flex;
+    flex-direction: column;
+}
+
+.work-description {
+    color: var(--secondary-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    flex-grow: 1; /* لجعل الوصف يأخذ المساحة المتبقية */
+    margin-bottom: 15px; /* مسافة قبل الزر */
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: stretch; /* لجعل جميع البطاقات تتمدد بنفس الطريقة */
+}
 /* ✅ التصحيح: إزالة المرحلة المتوسطة (3 صور) */
 /* @media (max-width: 1200px) {
     .works-grid {

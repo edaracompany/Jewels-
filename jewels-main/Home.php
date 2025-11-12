@@ -33,7 +33,7 @@
     <header id="header">
         <div class="container">
             <div class="header-content">
-                <a href="#" class="logo">
+                <a href="Home.php" class="logo">
                     <i class="fas fa-gem"></i>
                     <span class="logo-text">جواهر</span>
                 </a>
@@ -70,7 +70,7 @@
             </ul>
             
             <div class="mobile-cta">
-                <a href="#contact" class="btn"><i class="fas fa-envelope"></i> تواصل معنا</a>
+                <a href="#contact" class="btn"> تواصل معنا</a>
             </div>
         </div>
         
@@ -208,28 +208,21 @@
                 <p>نقدم مجموعة متكاملة من خدمات تصنيع المجوهرات باستخدام أحدث التقنيات</p>
             </div>
             
-            <div class="services-grid">
-                <div class="service-card fade-in stagger-delay-1">
-                    <div class="service-icon">
-                        <i class="fas fa-route"></i>
-                    </div>
-                    <h3>القص بالليزر , البلازما</h3>
-                    <p>القص بالليزر والبلازما هما تقنيتان متطورتان تستخدمان في قطع المواد المعدنية وغير المعدنية بدقة عالية وسرعة فائقة، حيث يعتمد القص بالليزر على شعاع ضوئي مركز يذيب المادة، بينما يستخدم القص بالبلازما قوساً كهربائياً عالي الحرارة لصهر وقطع المعادن.</p>
-                </div>
-                
-               
-
-            <div class="tech-features fade-in">
-                <div class="tech-feature">
-                    <h4><i class="fas fa-ruler-combined"></i> دقة قص عالية</h4>
-                    <p>دقة تصل إلى 0.01 ملم في قص المعادن باستخدام الليزر و ال بالبلازما </p>
-                </div>
-               
-            </div>
+           <div class="services-grid">
+    <div class="service-card fade-in stagger-delay-1">
+        <div class="service-icon">
+            <!-- استبدال الأيقونة بصورة -->
+            <img src="img/2.jpg" alt="القص بالليزر والبلازما" class="service-image">
         </div>
+        <h3>القص بالليزر , البلازما</h3>
+        <p>القص بالليزر والبلازما هما تقنيتان متطورتان تستخدمان في قطع المواد المعدنية وغير المعدنية بدقة عالية وسرعة فائقة، حيث يعتمد القص بالليزر على شعاع ضوئي مركز يذيب المادة، بينما يستخدم القص بالبلازما قوساً كهربائياً عالي الحرارة لصهر وقطع المعادن.</p>
+    </div>
+</div>
     </section>
 
     
+
+
 
     <section class="cnc-process section-highlight" id="process">
         <div class="container">
@@ -240,8 +233,8 @@
             
             <div class="process-steps">
                 <div class="process-step fade-in stagger-delay-1">
-                    <div class="process-icon">
-                        <i class="fas fa-pencil-alt"></i>
+                    <div class="service-icon">
+                         <img src="img/4.jpg" alt="القص بالليزر والبلازما" class="service-image">
                     </div>
                     <h3>التصميم الرقمي</h3>
                     <p>نبدأ برسم التصاميم الأولية باستخدام أحدث برامج التصميم ثلاثية الأبعاد، مع مراعاة أحدث صيحات الموضة ومتطلبات العملاء.</p>
@@ -277,10 +270,10 @@
                         <p class="testimonial-text">"اشتريت خاتم خطوبة من مصنع جواهر وكان اختياراً رائعاً. الجودة استثنائية والتصميم يفوق التوقعات. فريق العمل محترف جداً ويقدم استشارات قيمة."</p>
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">ن</div>
+                        <div class="author-avatar"></div>
                         <div class="author-info">
                             <h4>نورة أحمد</h4>
-                            <p>عميلة منذ ٢٠٢٠</p>
+                            
                         </div>
                     </div>
                 </div>

@@ -30,24 +30,24 @@
     <header id="header">
         <div class="container">
             <div class="header-content">
-                <a href="#" class="logo">
+                <a href="Home.php" class="logo">
                     <i class="fas fa-gem"></i>
                     <span class="logo-text">جواهر</span>
                 </a>
                 
                 <div class="nav-container">
                     <ul class="nav-links">
-                       <li><a href="Home.html">الرئيسية</a></li>
-                       <li><a href="Home.html">شركائنا</a></li>
-                    <li><a href="Home.html">من نحن</a></li>
-                    <li><a href="Home.html">خدماتنا</a></li>
-                    <li><a href="Work.html">أعمالنا</a></li>
-                    <li><a href="vision.html">رؤيتنا</a></li>
-                    <li><a href="team.html">انضم لفريقنا</a></li>
+                       <li><a href="Home.php">الرئيسية</a></li>
+                       <li><a href="Home.php">شركائنا</a></li>
+                    <li><a href="Home.php">من نحن</a></li>
+                    <li><a href="Home.php">خدماتنا</a></li>
+                    <li><a href="Work.php">أعمالنا</a></li>
+                    <li><a href="vision.php">رؤيتنا</a></li>
+                    <li><a href="team.php">انضم لفريقنا</a></li>
                     </ul>
                     
                     <div class="nav-cta">
-                        <a href="#contact" class="btn">تواصل معنا</a>
+                        <a href="Home.php" class="btn">تواصل معنا</a>
                     </div>
                 
                     <div class="menu-toggle" id="menuToggle">
@@ -59,17 +59,17 @@
         
         <div class="mobile-menu" id="mobileMenu">
             <ul class="mobile-nav-links">
-                <li><a href="Home.html"><i class="fas fa-home"></i> الرئيسية</a></li>
-                <li><a href="Home.html"><i class="fas fa-handshake"></i> شركائنا</a></li>
-                <li><a href="Home.html"><i class="fas fa-users"></i> من نحن</a></li>
-                <li><a href="Home.html"><i class="fas fa-concierge-bell"></i> خدماتنا</a></li>
-                <li><a href="Work.html"><i class="fas fa-briefcase"></i> أعمالنا</a></li>
-                <li><a href="vision.html"><i class="fas fa-eye"></i> رؤيتنا</a></li>
-                <li><a href="team.html"><i class="fas fa-user-plus"></i> انضم لفريقنا</a></li>
+                <li><a href="Home.php"><i class="fas fa-home"></i> الرئيسية</a></li>
+                <li><a href="Home.php"><i class="fas fa-handshake"></i> شركائنا</a></li>
+                <li><a href="Home.php"><i class="fas fa-users"></i> من نحن</a></li>
+                <li><a href="Home.php"><i class="fas fa-concierge-bell"></i> خدماتنا</a></li>
+                <li><a href="Work.php"><i class="fas fa-briefcase"></i> أعمالنا</a></li>
+                <li><a href="vision.php"><i class="fas fa-eye"></i> رؤيتنا</a></li>
+                <li><a href="team.php"><i class="fas fa-user-plus"></i> انضم لفريقنا</a></li>
             </ul>
             
             <div class="mobile-cta">
-                <a href="Home.html" class="btn"><i class="fas fa-envelope"></i> تواصل معنا</a>
+                <a href="Home.php" class="btn"> تواصل معنا</a>
             </div>
         </div>
         
@@ -93,6 +93,11 @@
                 <div class="work-content">
                     <h3 class="work-title">سلالم تعكس الفخامة بكل تفاصيلها</h3>
                     <p class="work-description">تصميم فاخر يجمع بين الرخام الطبيعي اللامع ولمسات المعدن الذهبي ليصنع تحفة معمارية تفيض بالرقي.</p>
+                    <div class="contact-btn-container">
+    <a href="tel:966573797877" class="contact-btn">
+        تواصل معنا
+    </a>
+</div>
                 </div>
             </div>
             
@@ -106,6 +111,9 @@
                     <h3 class="work-title">درج يجمع بين الفخامة والحداثة</h3>
                     <p class="work-description">تصميم يجسّد التوازن المثالي بين الأناقة والعملية.
 درج زجاجي بإطار معدني راقٍ وخطوات خشبية طبيعية تمنح المكان دفئاً وجمالاً لا يُضاهى.</p>
+<a href="tel:966573797877" class="contact-btn">
+        تواصل معنا
+    </a>
                 </div>
             </div>
             
@@ -118,6 +126,9 @@
                 <div class="work-content">
                     <h3 class="work-title">كرسي بتصميم يجمع بين الدفء والأناقة</h3>
                     <p class="work-description">تحفة فنية تجمع بين الخشب الطبيعي الفاخر والقماش المخملي بلونه الذهبي الدافئ، ليخلق توازناً رائعاً بين الراحة والجمال.</p>
+                <a href="tel:966573797877" class="contact-btn">
+        تواصل معنا
+    </a>
                 </div>
             </div>
             
@@ -130,6 +141,9 @@
                 <div class="work-content">
                     <h3 class="work-title">لمسة فخامة تبدأ من أول خطوة</h3>
                     <p class="work-description">تصميم مميز من الرخام الطبيعي بتفاصيل ذهبية أنيقة تضيف للمكان سحر خاص وهيبة فريدة.</p>
+               <a href="tel:966573797877" class="contact-btn">
+        تواصل معنا
+    </a>
                 </div>
             </div>
             
@@ -142,6 +156,9 @@
                 <div class="work-content">
                     <h3 class="work-title">تصميم مظلة يجمع بين الأناقة والمتانة</h3>
                     <p class="work-description">مظلّة حديثة بتصميم عملي وانسيابي تضيف لمسة جمالية للمساحات الخارجية.</p>
+                <a href="tel:966573797877" class="contact-btn">
+        تواصل معنا
+    </a>
                 </div>
             </div>
             
@@ -154,6 +171,9 @@
                 <div class="work-content">
                     <h3 class="work-title">تصميم درج يعبّر عن فخامة التفاصيل</h3>
                     <p class="work-description">درج أنيق من الرخام الطبيعي بتشطيبات ذهبية تضيف حضوراً لافتاً وأناقة دائمة.</p>
+               <a href="tel:966573797877" class="contact-btn">
+        تواصل معنا
+    </a>
                 </div>
             </div>
             
@@ -166,6 +186,9 @@
                 <div class="work-content">
                     <h3 class="work-title">لمسة فخامة في كل تفصيل</h3>
                     <p class="work-description">مغسلة رخام مصممة بعناية من أجود أنواع الرخام الطبيعي لتمنح المكان مظهراً راقياً وأنيقاً.</p>
+                <a href="tel:966573797877" class="contact-btn">
+        تواصل معنا
+    </a>
                 </div>
             </div>
             
@@ -178,6 +201,9 @@
                 <div class="work-content">
                     <h3 class="work-title">أناقة تتجسّد في كل قطعة</h3>
                     <p class="work-description">طاولة رخام بتصميم أنيق يجمع بين الفخامة والبساطة العصرية.</p>
+                <a href="tel:966573797877" class="contact-btn">
+        تواصل معنا
+    </a>
                 </div>
             </div>
         </div>

@@ -30,24 +30,24 @@
     <header id="header">
         <div class="container">
             <div class="header-content">
-                <a href="#" class="logo">
+                <a href="Home.php" class="logo">
                     <i class="fas fa-gem"></i>
                     <span class="logo-text">جواهر</span>
                 </a>
                 
                 <div class="nav-container">
                     <ul class="nav-links">
-                       <li><a href="Home.html">الرئيسية</a></li>
-                       <li><a href="Home.html">شركائنا</a></li>
-                    <li><a href="Home.html">من نحن</a></li>
-                    <li><a href="Home.html">خدماتنا</a></li>
-                    <li><a href="Work.html">أعمالنا</a></li>
-                    <li><a href="vision.html">رؤيتنا</a></li>
-                    <li><a href="team.html">انضم لفريقنا</a></li>
+                       <li><a href="Home.php">الرئيسية</a></li>
+                       <li><a href="Home.php">شركائنا</a></li>
+                    <li><a href="Home.php">من نحن</a></li>
+                    <li><a href="Home.php">خدماتنا</a></li>
+                    <li><a href="Work.php">أعمالنا</a></li>
+                    <li><a href="vision.php">رؤيتنا</a></li>
+                    <li><a href="team.php">انضم لفريقنا</a></li>
                     
                     </ul>
                     <div class="nav-cta">
-                        <a href="#contact" class="btn">تواصل معنا</a>
+                        <a href="Home.php" class="btn">تواصل معنا</a>
                     </div>
                     
                     <div class="menu-toggle" id="menuToggle">
@@ -59,17 +59,17 @@
         
         <div class="mobile-menu" id="mobileMenu">
             <ul class="mobile-nav-links">
-                <li><a href="Home.html"><i class="fas fa-home"></i> الرئيسية</a></li>
-                <li><a href="Home.html"><i class="fas fa-handshake"></i> شركائنا</a></li>
-                <li><a href="Home.html"><i class="fas fa-users"></i> من نحن</a></li>
-                <li><a href="Home.html"><i class="fas fa-concierge-bell"></i> خدماتنا</a></li>
-                <li><a href="Work.html"><i class="fas fa-briefcase"></i> أعمالنا</a></li>
-                <li><a href="vision.html"><i class="fas fa-eye"></i> رؤيتنا</a></li>
-                <li><a href="team.html"><i class="fas fa-user-plus"></i> انضم لفريقنا</a></li>
+                <li><a href="Home.php"><i class="fas fa-home"></i> الرئيسية</a></li>
+                <li><a href="Home.php"><i class="fas fa-handshake"></i> شركائنا</a></li>
+                <li><a href="Home.php"><i class="fas fa-users"></i> من نحن</a></li>
+                <li><a href="Home.php"><i class="fas fa-concierge-bell"></i> خدماتنا</a></li>
+                <li><a href="Work.php"><i class="fas fa-briefcase"></i> أعمالنا</a></li>
+                <li><a href="vision.php"><i class="fas fa-eye"></i> رؤيتنا</a></li>
+                <li><a href="team.php"><i class="fas fa-user-plus"></i> انضم لفريقنا</a></li>
             </ul>
             
             <div class="mobile-cta">
-                <a href="Home.html" class="btn"><i class="fas fa-envelope"></i> تواصل معنا</a>
+                <a href="Home.php" class="btn"> تواصل معنا</a>
             </div>
         </div>
         
@@ -116,7 +116,7 @@
                         <div class="file-upload">
                             <label for="cv" class="file-upload-label">
                                 <i class="fas fa-cloud-upload-alt"></i>
-                                <span>انقر لرفع ملف السيرة الذاتية (PDF, DOC, DOCX)</span>
+                                <span>انقر لرفع ملف السيرة الذاتية (PDF)</span>
                             </label>
                             <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
                         </div>
@@ -133,50 +133,7 @@
         </div>
     </section>
 
-    <!-- Benefits Section -->
-    <section class="benefits-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>لماذا تنضم إلى فريق جواهر؟</h2>
-                <p>نحن نقدم بيئة عمل استثنائية تنمي مواهبك وتطور مهاراتك</p>
-            </div>
-            
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-gem"></i>
-                    </div>
-                    <h3>تدريب متقدم</h3>
-                    <p>برامج تدريبية متخصصة في أحدث تقنيات صناعة المجوهرات وتصميمها</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-hand-holding-usd"></i>
-                    </div>
-                    <h3>مزايا تنافسية</h3>
-                    <p>حزمة مزايا شاملة تشمل التأمين الصحي ومكافآت الأداء</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>تطور مهني</h3>
-                    <p>فرص نمو وتطور مهني حقيقية في بيئة داعمة للإبداع</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>بيئة عمل إبداعية</h3>
-                    <p>انضم إلى فريق من المحترفين المبدعين في مجال صناعة المجوهرات</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+   
     <script>
           // Preloader
         window.addEventListener('load', function() {

@@ -31,24 +31,24 @@
     <header id="header">
         <div class="container">
             <div class="header-content">
-                <a href="#" class="logo">
+                <a href="Home.php" class="logo">
                     <i class="fas fa-gem"></i>
                     <span class="logo-text">جواهر</span>
                 </a>
                 
                 <div class="nav-container">
                     <ul class="nav-links">
-                       <li><a href="Home.html">الرئيسية</a></li>
-                       <li><a href="Home.html">شركائنا</a></li>
-                    <li><a href="Home.html">من نحن</a></li>
-                    <li><a href="Home.html">خدماتنا</a></li>
-                    <li><a href="Work.html">أعمالنا</a></li>
-                    <li><a href="vision.html">رؤيتنا</a></li>
-                    <li><a href="team.html">انضم لفريقنا</a></li>
+                       <li><a href="Home.php">الرئيسية</a></li>
+                       <li><a href="Home.php">شركائنا</a></li>
+                    <li><a href="Home.php">من نحن</a></li>
+                    <li><a href="Home.php">خدماتنا</a></li>
+                    <li><a href="Work.php">أعمالنا</a></li>
+                    <li><a href="vision.php">رؤيتنا</a></li>
+                    <li><a href="team.php">انضم لفريقنا</a></li>
                     </ul>
                     
                     <div class="nav-cta">
-                        <a href="#contact" class="btn">تواصل معنا</a>
+                        <a href="Home.php" class="btn">تواصل معنا</a>
                     </div>
                 
                     <div class="menu-toggle" id="menuToggle">
@@ -60,17 +60,17 @@
         
         <div class="mobile-menu" id="mobileMenu">
             <ul class="mobile-nav-links">
-                <li><a href="Home.html"><i class="fas fa-home"></i> الرئيسية</a></li>
-                <li><a href="Home.html"><i class="fas fa-handshake"></i> شركائنا</a></li>
-                <li><a href="Home.html"><i class="fas fa-users"></i> من نحن</a></li>
-                <li><a href="Home.html"><i class="fas fa-concierge-bell"></i> خدماتنا</a></li>
-                <li><a href="Work.html"><i class="fas fa-briefcase"></i> أعمالنا</a></li>
-                <li><a href="vision.html"><i class="fas fa-eye"></i> رؤيتنا</a></li>
-                <li><a href="team.html"><i class="fas fa-user-plus"></i> انضم لفريقنا</a></li>
+                <li><a href="Home.php"><i class="fas fa-home"></i> الرئيسية</a></li>
+                <li><a href="Home.php"><i class="fas fa-handshake"></i> شركائنا</a></li>
+                <li><a href="Home.php"><i class="fas fa-users"></i> من نحن</a></li>
+                <li><a href="Home.php"><i class="fas fa-concierge-bell"></i> خدماتنا</a></li>
+                <li><a href="Work.php"><i class="fas fa-briefcase"></i> أعمالنا</a></li>
+                <li><a href="vision.php"><i class="fas fa-eye"></i> رؤيتنا</a></li>
+                <li><a href="team.php"><i class="fas fa-user-plus"></i> انضم لفريقنا</a></li>
             </ul>
             
             <div class="mobile-cta">
-                <a href="Home.html" class="btn"><i class="fas fa-envelope"></i> تواصل معنا</a>
+                <a href="Home.php" class="btn"> تواصل معنا</a>
             </div>
         </div>
         
@@ -122,61 +122,6 @@
                 </div>
                 
                </div>
-    </section>
-
-    <!-- قسم الخدمات -->
-    <section class="services-section" id="services">
-        <div class="vision-bg"></div>
-        <div class="vision-pattern"></div>
-        
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">خدماتنا المتكاملة</h2>
-                <p class="section-subtitle">تقنيات متطورة تواكب أحدث معايير الصناعة العالمية</p>
-            </div>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <h3 class="service-title">الطلاء الكهربائي</h3>
-                    <p class="service-description">
-                        نقدم خدمات الطلاء الكهربائي المتطورة التي تضمن حماية دائمة للمعادن مع الحفاظ على المظهر الجمالي اللامع. نستخدم أحدث التقنيات لتحقيق نتائج متميزة تلبي أعلى معايير الجودة.
-                    </p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-cut"></i>
-                    </div>
-                    <h3 class="service-title">قص الليزر والبلازما</h3>
-                    <p class="service-description">
-                        نستخدم تقنيات القص بالليزر والبلازما المتطورة لتحقيق دقة قص فائقة في مختلف أنواع المعادن. نضمن حواف نظيفة ودقة في التفاصيل تتناسب مع أعلى متطلبات العملاء.
-                    </p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3 class="service-title">أعمال الـCNC</h3>
-                    <p class="service-description">
-                        نقدم خدمات تشغيل المعادن باستخدام أحدث ماكينات التحكم الرقمي (CNC) لتحقيق أعلى مستويات الدقة في التصنيع. نضمن جودة فائقة وتنفيذاً دقيقاً لأكثر التصاميم تعقيداً.
-                    </p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-sparkles"></i>
-                    </div>
-                    <h3 class="service-title">التلميع والتشطيب</h3>
-                    <p class="service-description">
-                        نقدم خدمات التلميع والتشطيب المتكاملة التي تضمن مظهراً نهائياً أنيقاً ومتألقاً. نستخدم تقنيات متطورة ومواد عالية الجودة لتحقيق سطح أملس ولامع يضفي لمسة جمالية فاخرة.
-                    </p>
-                </div>
-            </div>
-        </div>
     </section>
 
     <script>
