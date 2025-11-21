@@ -20,23 +20,59 @@
         </div>
     </div>
 
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="preloader-content">
-            <div class="preloader-gem"></div>
-            <h3>مصنع جواهر</h3>
-            <p>جاري التحميل...</p>
-        </div>
+  <!-- Preloader -->
+<div id="preloader">
+    <div class="preloader-content">
+        <img src="img/25.jpeg" alt="Logo" class="preloader-logo">
+        
     </div>
+</div>
+
+<style>
+.preloader-logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    animation: elegantFade 2s infinite ease-in-out;
+}
+
+@keyframes elegantFade {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+}
+</style>
+
+
  
 <!--                                   الناف بار                                      -->
     <header id="header">
         <div class="container">
             <div class="header-content">
-                <a href="Home.php" class="logo">
-                    <i class="fas fa-gem"></i>
-                    <span class="logo-text">جواهر</span>
-                </a>
+          <a href="Home.php" class="logo">
+    <img src="img/25.jpeg" alt="Logo" class="logo-fix">
+</a>
+
+<style>
+.logo-fix {
+    width: 160px; /* حجم أصغر للناف بار */
+    height: auto; /* يحافظ على تناسب الصورة */
+    display: block;
+    margin: 0 auto; /* يخلي الصورة بمركز العنصر */
+    margin-top: 5px; /* لو بدك شوي فوق، عدلي الرقم حسب الحاجة */
+}
+</style>
+
                 
                 <div class="nav-container">
                     <ul class="nav-links">
@@ -82,12 +118,14 @@
 
 <!--                                   الرئيسية                                      -->
 
-
-
     <section class="hero section-highlight" id="home">
-        <div class="hero-bg"></div>
-        
-       
+       <!-- السلايدر الخلفية -->
+<div class="hero-slider">
+    <div class="slide active" style="background-image: url('img/27.jpeg');"></div>
+    <div class="slide" style="background-image: url('img/28.jpeg');"></div>
+    <div class="slide" style="background-image: url('img/29.jpeg');"></div>
+    <div class="slide" style="background-image: url('img/30.jpeg');"></div>
+</div>
         
         <div class="hero-content">
             <h1>مصنع جواهر</h1>
@@ -95,7 +133,7 @@
             <div class="hero-buttons">
                 <a href="Work.html" class="btn">
                     <i class="fas fa-gem"></i>
-                  اكتشف اعمالنا
+                    اكتشف اعمالنا
                 </a>
                 <a href="Work.html" class="btn btn-outline">
                     <i class="fas fa-play-circle"></i>
@@ -105,10 +143,23 @@
         </div>
     </section>
 
-
-
 <!--                                 نهاية الرئيسية                                      -->
-
+<script>
+        // JavaScript for the background slider
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.slide');
+            let currentSlide = 0;
+            
+            function nextSlide() {
+                slides[currentSlide].classList.remove('active');
+                currentSlide = (currentSlide + 1) % slides.length;
+                slides[currentSlide].classList.add('active');
+            }
+            
+            // Change slide every 5 seconds
+            setInterval(nextSlide, 5000);
+        });
+    </script>
 
 
 <!--                                   شركائنا                                      -->
@@ -179,7 +230,7 @@
                         </div>
                     </div>
                     
-                    <a href="Work.html" class="btn mt-0">
+                    <a href="Work.php" class="btn mt-0">
                         <i class="fas fa-book-open"></i>
                         تعرف على المزيد
                     </a>
@@ -318,13 +369,13 @@
                     <h3>مصنع جواهر</h3>
                     <div class="footer-about">
                         <p>رائد صناعة المجوهرات والطلاء منذ عام 1985. نقدم أجود المنتجات بأفضل التصميمات العصرية والكلاسيكية، مع الحفاظ على أعلى معايير الجودة والتميز.</p>
-                        <div class="social-links">
-                          
-                            <a href="https://www.instagram.com/jawaher_metals?igsh=MWtudmR0ZmlsZWd4dQ%3D%3D&utm_source=qr
+                       <div class="social-links">
+    <a href="https://www.instagram.com/jawaher_metals?igsh=MWtudmR0ZmlsZWd4dQ%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/jawaher-382143381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://x.com/jawaherr90?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.tiktok.com/@jawaher5188?_r=1&_d=emage542dcddbj&sec_uid=MS4wLjABAAAAFcZtu-RSNyJjUN6CJE-Sm4RBzQI4M-SH9RRM00kJ6mFBDgjglSq6thI0E5Q5EoDM&share_author_id=7548848412835169287&sharer_language=ar&source=h5_m&u_code=emageihj4m0hdd&item_author_type=1&utm_source=copy&tt_from=copy&enable_checksum=1&utm_medium=ios&share_link_id=97787B10-02F2-4C9D-AD6E-3D8B0A7E919F&user_id=7548848412835169287&sec_user_id=MS4wLjABAAAAFcZtu-RSNyJjUN6CJE-Sm4RBzQI4M-SH9RRM00kJ6mFBDgjglSq6thI0E5Q5EoDM&social_share_type=5&ug_btm=b8727,b0&utm_campaign=client_share&share_app_id=1233" target="_blank"><i class="fab fa-tiktok"></i></a>
+</div>
 
-"><i class="fab fa-instagram"></i></a>
-                          
-                        </div>
                     </div>
                 </div>
                 <div class="footer-column">

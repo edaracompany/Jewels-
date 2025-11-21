@@ -919,8 +919,7 @@
         }
 
        
-
-        /* Hero Section - Enhanced with Multiple 3D Elements */
+/* Hero Section - Enhanced with Slider Background */
         .hero {
             height: 100vh;
             min-height: 800px;
@@ -930,7 +929,42 @@
             position: relative;
             overflow: hidden;
             margin-top: 0;
-            background: var(--gradient-secondary);
+        }
+
+        .hero-slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .slide.active {
+            opacity: 1;
+        }
+
+        .slide::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(26, 26, 46, 0.6);
         }
 
         .hero::before {
@@ -947,20 +981,6 @@
             z-index: 1;
         }
 
-        .hero-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="gems" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="2" fill="rgba(212, 175, 55, 0.1)"/><circle cx="35" cy="25" r="1.5" fill="rgba(212, 175, 55, 0.1)"/><circle cx="15" cy="40" r="1" fill="rgba(212, 175, 55, 0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23gems)"/></svg>'),
-                var(--gradient-secondary);
-            background-size: 300px, cover;
-            z-index: -1;
-            opacity: 0.3;
-        }
-
         .hero-content {
             text-align: center;
             color: white;
@@ -968,6 +988,7 @@
             max-width: 900px;
             padding: 0 30px;
             position: relative;
+            animation: fadeInUp 1s ease-out;
         }
 
         .hero h1 {
@@ -1058,6 +1079,58 @@
             font-size: 1.2rem;
         }
 
+        /* Animation for content */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive styles */
+        @media (max-width: 1200px) {
+            .hero h1 {
+                font-size: 4rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                min-height: 700px;
+            }
+            
+            .hero h1 {
+                font-size: 3rem;
+            }
+            
+            .hero p {
+                font-size: 1.2rem;
+            }
+            
+            .btn {
+                padding: 15px 30px;
+                font-size: 1rem;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+        }
         /* 3D Jewelry Showcase in Hero */
         .jewelry-showcase {
             position: absolute;
@@ -2132,7 +2205,7 @@
         }
 .whatsapp-float {
     position: fixed;
-    bottom: 25px;
+    bottom: 30px;
     right: 25px;
     z-index: 1000;
     opacity: 0;
@@ -2185,7 +2258,7 @@
 /* للشاشات الصغيرة */
 @media (max-width: 768px) {
     .whatsapp-float {
-        bottom: 20px;
+        bottom: 30px;
         right: 20px;
     }
     
@@ -2198,6 +2271,7 @@
         font-size: 28px;
     }
 }
+
 /* Responsive Design - Fixed */
 @media (max-width: 1200px) {
     .about-content {
